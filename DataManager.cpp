@@ -16,7 +16,6 @@ int DataManager::verteilen() {
 	while (preisliste.size() % personen != 0) {
 		preisliste.push_back(0);
 	}
-	//std::sort(preisliste.begin(), preisliste.end(), std::greater<int>());
 	std::sort(preisliste.begin(), preisliste.end());
 	ergebnisse.resize(personen);
 	while (eintrag < preisliste.size()) {
