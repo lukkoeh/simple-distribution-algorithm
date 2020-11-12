@@ -3,7 +3,7 @@ An algorithm, which allows to distribute values almost equal to multiple objects
 
 ## How does it work?
 
-This algorithm takes a set of numbers which are supposed to be distributed around a amount of recipients. It uses some quite simple methods to find the most equal distribution for the amount of recipients given. The process is divided into X steps:
+This algorithm takes a set of numbers which are supposed to be distributed around a amount of recipients. It uses some quite simple methods to find the most equal distribution for the amount of recipients given. The process is divided into 4 steps:
 
 ### Step 1: Prepare the dataset
 The first step is to fill up the container of data which was given by the user or other institution. The size of the container has to be a multiple of the amount of recipients given. This is made possible by adding zeros to our container until the targeted size is reached (size_of_container % amount_of_recipients == 0). After that, the dataset is ordered in descending order as a preparation for the next step.
