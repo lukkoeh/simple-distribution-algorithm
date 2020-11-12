@@ -48,4 +48,4 @@ Make sure that you include the SDA.h header file into your project. After that y
 And call its "distribute" function like this:   
 ```object_name.distribute(<data_object>, <amount of recipients>);```   
 
-After that you can use the function "distribute" to distribute any amount of integers to any amount of recipients. In this repository you may find a simple example of how one can use this function. It uses a std::vector<int> as input and output. Furthermore, the function can adjust the amount of people one wants to distribute to.cd 
+After that you can use the function "distribute" to distribute any amount of integers to any amount of recipients. In this repository you may find a simple example of how one can use this function. It uses a std::vector<int> as input and output. Furthermore, the function can adjust the amount of people one wants to distribute to.
