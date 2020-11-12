@@ -14,8 +14,8 @@ int main(int argc, char* argv[]) {
 	vector<int> values{ 1,2,3 };
 	int distrib_to = 2;
 
-	SDA dman;
-	vector<int> result = dman.distribute(values, distrib_to);
+	SDA sda;
+	vector<int> result = sda.distribute(values, distrib_to);
 
 	for (int x : result) {
 		cout << x << endl;
